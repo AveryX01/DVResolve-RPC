@@ -1,10 +1,15 @@
-Discord Rich presence for [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) written in c#
+# Discord Rich Presence for DaVinci Resolve
 
-This is a fork of the original (https://github.com/v4ish/rpc), where I just recompiled the DLL's so it doesn't have the type issue. 
+A simple tool written in **C#** to show your DaVinci Resolve project status on Discord.
 
-Before: 
-<img width="548" height="321" alt="image" src="https://github.com/user-attachments/assets/36a22c1d-64ba-4f15-8239-9dce511f0588" />
------------------
-vs After:
-<img width="508" height="328" alt="image" src="https://github.com/user-attachments/assets/9ae7fa70-38c9-4924-9c05-cf65cb2493a4" />
------------
+This is a fork of the original [v4ish/DVResolve-RPC](https://github.com/v4ish/DVResolve-RPC) repo. I recompiled the DLLs to fix the "In Studio" typo issue.
+
+## Before vs. After
+
+| Before | After                  |
+|--------|-------------------------|
+| ![Before image](https://github.com/user-attachments/assets/36a22c1d-64ba-4f15-8239-9dce511f0588) | ![After image](https://github.com/user-attachments/assets/9ae7fa70-38c9-4924-9c05-cf65cb2493a4) |
+
+---
+
+The compiled files and executables are available for download. Just extract and run the exe.
